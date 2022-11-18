@@ -74,23 +74,31 @@ namespace Renomeador
         void manter_numeros()
         {
             string num;
-            DirectoryInfo d = new DirectoryInfo(@pasta);
-            FileInfo[] infos = d.GetFiles();
-            int max = 0;
-            foreach (FileInfo f in infos)
+            try
             {
-                max++;
-                toolStripProgressBar1.Maximum = max;
+                DirectoryInfo d = new DirectoryInfo(@pasta);
+                FileInfo[] infos = d.GetFiles();
+                int max = 0;
+                foreach (FileInfo f in infos)
+                {
+                    max++;
+                    toolStripProgressBar1.Maximum = max;
+                }
+                foreach (FileInfo f in infos)
+                {
+                        int manter = f.Name.Substring(f.Name.IndexOf(".")).Length + Decimal.ToInt32(numManter.Value);
+                        toolStripStatusLabel1.Text = "trabalhando em" + f.Name;
+                        num = f.FullName.Substring(f.FullName.Length - manter);
+                        File.Move(f.FullName, f.FullName.Replace(f.Name, num));
+                        toolStripProgressBar1.Increment(1);
+                }
+                toolStripStatusLabel1.Text = "Pronto";
             }
-            foreach (FileInfo f in infos)
+            catch(ArgumentNullException)
             {
-                toolStripStatusLabel1.Text = "trabalhando em" + f.Name;
-                num = f.FullName.Substring(f.FullName.Length - 7);
-                File.Move(f.FullName, f.FullName.Replace(f.Name, num));
-                toolStripProgressBar1.Increment(1);
-
+                MessageBox.Show("Selecione uma pasta!", "Erro");
+                abrir();
             }
-            toolStripStatusLabel1.Text = "Pronto";
         }
 
         //menu abrir pasta
@@ -119,10 +127,12 @@ namespace Renomeador
             if(chk_mtn_numeros.Checked)
             {
                 txtRemover.Enabled = false;
+                numManter.Enabled = true;
             }
             else
             {
                 txtRemover.Enabled = true;
+                numManter.Enabled = false;
             }
         }
     }

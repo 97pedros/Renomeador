@@ -44,13 +44,16 @@ namespace Renomeador
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.chk_mtn_numeros = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.numManter = new System.Windows.Forms.NumericUpDown();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numManter)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_remover
             // 
-            this.btn_remover.Location = new System.Drawing.Point(350, 56);
+            this.btn_remover.Location = new System.Drawing.Point(350, 44);
             this.btn_remover.Name = "btn_remover";
             this.btn_remover.Size = new System.Drawing.Size(75, 23);
             this.btn_remover.TabIndex = 0;
@@ -118,7 +121,7 @@ namespace Renomeador
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 40);
+            this.label1.Location = new System.Drawing.Point(9, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 13);
             this.label1.TabIndex = 2;
@@ -126,7 +129,7 @@ namespace Renomeador
             // 
             // txtRemover
             // 
-            this.txtRemover.Location = new System.Drawing.Point(12, 56);
+            this.txtRemover.Location = new System.Drawing.Point(12, 44);
             this.txtRemover.Name = "txtRemover";
             this.txtRemover.Size = new System.Drawing.Size(332, 20);
             this.txtRemover.TabIndex = 3;
@@ -160,17 +163,36 @@ namespace Renomeador
             this.chk_mtn_numeros.AutoSize = true;
             this.chk_mtn_numeros.Location = new System.Drawing.Point(12, 82);
             this.chk_mtn_numeros.Name = "chk_mtn_numeros";
-            this.chk_mtn_numeros.Size = new System.Drawing.Size(182, 17);
+            this.chk_mtn_numeros.Size = new System.Drawing.Size(146, 17);
             this.chk_mtn_numeros.TabIndex = 8;
-            this.chk_mtn_numeros.Text = "Manter apenas Numeros do Final";
+            this.chk_mtn_numeros.Text = "Manter apenas os ultimos";
             this.chk_mtn_numeros.UseVisualStyleBackColor = true;
             this.chk_mtn_numeros.CheckedChanged += new System.EventHandler(this.chk_mtn_numeros_CheckedChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(209, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "caracteres do final";
+            // 
+            // numManter
+            // 
+            this.numManter.Enabled = false;
+            this.numManter.Location = new System.Drawing.Point(154, 79);
+            this.numManter.Name = "numManter";
+            this.numManter.Size = new System.Drawing.Size(49, 20);
+            this.numManter.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 135);
+            this.Controls.Add(this.numManter);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.chk_mtn_numeros);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.txtRemover);
@@ -188,6 +210,7 @@ namespace Renomeador
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numManter)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +232,8 @@ namespace Renomeador
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.CheckBox chk_mtn_numeros;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown numManter;
     }
 }
 
