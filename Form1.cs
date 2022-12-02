@@ -70,8 +70,8 @@ namespace Renomeador
             }
         }
 
-        //Função para manter apenas os números do nome do arquivo
-        void manter_numeros()
+        //Função para manter apenas os ultimos caracteres do nome do arquivo
+        void manter_char()
         {
             string num;
             try
@@ -113,7 +113,7 @@ namespace Renomeador
         {
             if(chk_mtn_numeros.Checked)
             {
-                manter_numeros();
+                manter_char();
             }
             else
             {

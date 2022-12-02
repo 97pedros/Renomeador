@@ -53,9 +53,9 @@ namespace Renomeador
             // 
             // btn_remover
             // 
-            this.btn_remover.Location = new System.Drawing.Point(350, 44);
+            this.btn_remover.Location = new System.Drawing.Point(351, 41);
             this.btn_remover.Name = "btn_remover";
-            this.btn_remover.Size = new System.Drawing.Size(75, 23);
+            this.btn_remover.Size = new System.Drawing.Size(75, 58);
             this.btn_remover.TabIndex = 0;
             this.btn_remover.Text = "Renomear";
             this.btn_remover.UseVisualStyleBackColor = true;
@@ -89,7 +89,7 @@ namespace Renomeador
             // 
             this.abrirPastaToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.abrirPastaToolStripMenuItem.Name = "abrirPastaToolStripMenuItem";
-            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.abrirPastaToolStripMenuItem.Text = "&Abrir Pasta";
             this.abrirPastaToolStripMenuItem.Click += new System.EventHandler(this.abrirPastaToolStripMenuItem_Click);
             // 
@@ -97,7 +97,7 @@ namespace Renomeador
             // 
             this.fecharToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
-            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.fecharToolStripMenuItem.Text = "&Fechar";
             this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
             // 
@@ -194,11 +194,11 @@ namespace Renomeador
             this.Controls.Add(this.numManter);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.chk_mtn_numeros);
-            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.txtRemover);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_remover);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
