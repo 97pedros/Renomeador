@@ -53,144 +53,114 @@ namespace Renomeador
             // 
             // btn_remover
             // 
-            this.btn_remover.Location = new System.Drawing.Point(351, 41);
+            resources.ApplyResources(this.btn_remover, "btn_remover");
             this.btn_remover.Name = "btn_remover";
-            this.btn_remover.Size = new System.Drawing.Size(75, 58);
-            this.btn_remover.TabIndex = 0;
-            this.btn_remover.Text = "Renomear";
             this.btn_remover.UseVisualStyleBackColor = true;
             this.btn_remover.Click += new System.EventHandler(this.btn_remover_Click);
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
             this.sobreToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(438, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // arquivoToolStripMenuItem
             // 
+            resources.ApplyResources(this.arquivoToolStripMenuItem, "arquivoToolStripMenuItem");
             this.arquivoToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abrirPastaToolStripMenuItem,
             this.fecharToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.arquivoToolStripMenuItem.Text = "Arquivo";
             // 
             // abrirPastaToolStripMenuItem
             // 
+            resources.ApplyResources(this.abrirPastaToolStripMenuItem, "abrirPastaToolStripMenuItem");
             this.abrirPastaToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.abrirPastaToolStripMenuItem.Name = "abrirPastaToolStripMenuItem";
-            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.abrirPastaToolStripMenuItem.Text = "&Abrir Pasta";
             this.abrirPastaToolStripMenuItem.Click += new System.EventHandler(this.abrirPastaToolStripMenuItem_Click);
             // 
             // fecharToolStripMenuItem
             // 
+            resources.ApplyResources(this.fecharToolStripMenuItem, "fecharToolStripMenuItem");
             this.fecharToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
-            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.fecharToolStripMenuItem.Text = "&Fechar";
             this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
             // 
             // sobreToolStripMenuItem
             // 
+            resources.ApplyResources(this.sobreToolStripMenuItem, "sobreToolStripMenuItem");
             this.sobreToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sobreToolStripMenuItem1});
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
-            this.sobreToolStripMenuItem.Text = "Sobre";
             // 
             // sobreToolStripMenuItem1
             // 
+            resources.ApplyResources(this.sobreToolStripMenuItem1, "sobreToolStripMenuItem1");
             this.sobreToolStripMenuItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.sobreToolStripMenuItem1.Name = "sobreToolStripMenuItem1";
-            this.sobreToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.sobreToolStripMenuItem1.Text = "Sobre";
             this.sobreToolStripMenuItem1.Click += new System.EventHandler(this.sobreToolStripMenuItem1_Click);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 28);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Texto para remover";
             // 
             // txtRemover
             // 
-            this.txtRemover.Location = new System.Drawing.Point(12, 44);
+            resources.ApplyResources(this.txtRemover, "txtRemover");
             this.txtRemover.Name = "txtRemover";
-            this.txtRemover.Size = new System.Drawing.Size(332, 20);
-            this.txtRemover.TabIndex = 3;
+            // 
+            // folderBrowserDialog1
+            // 
+            resources.ApplyResources(this.folderBrowserDialog1, "folderBrowserDialog1");
             // 
             // statusStrip1
             // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripProgressBar1,
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 113);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(438, 22);
             this.statusStrip1.SizingGrip = false;
             this.statusStrip1.Stretch = false;
-            this.statusStrip1.TabIndex = 7;
-            this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripProgressBar1
             // 
+            resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
             this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
             // 
             // toolStripStatusLabel1
             // 
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(43, 17);
-            this.toolStripStatusLabel1.Text = "Pronto";
             // 
             // chk_mtn_numeros
             // 
-            this.chk_mtn_numeros.AutoSize = true;
-            this.chk_mtn_numeros.Location = new System.Drawing.Point(12, 82);
+            resources.ApplyResources(this.chk_mtn_numeros, "chk_mtn_numeros");
             this.chk_mtn_numeros.Name = "chk_mtn_numeros";
-            this.chk_mtn_numeros.Size = new System.Drawing.Size(146, 17);
-            this.chk_mtn_numeros.TabIndex = 8;
-            this.chk_mtn_numeros.Text = "Manter apenas os ultimos";
             this.chk_mtn_numeros.UseVisualStyleBackColor = true;
             this.chk_mtn_numeros.CheckedChanged += new System.EventHandler(this.chk_mtn_numeros_CheckedChanged);
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(209, 83);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(94, 13);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "caracteres do final";
             // 
             // numManter
             // 
-            this.numManter.Enabled = false;
-            this.numManter.Location = new System.Drawing.Point(154, 79);
+            resources.ApplyResources(this.numManter, "numManter");
             this.numManter.Name = "numManter";
-            this.numManter.Size = new System.Drawing.Size(49, 20);
-            this.numManter.TabIndex = 11;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AcceptButton = this.btn_remover;
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(438, 135);
             this.Controls.Add(this.numManter);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.chk_mtn_numeros);
@@ -200,12 +170,9 @@ namespace Renomeador
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "97Pedros - Renomeador";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
