@@ -132,13 +132,10 @@
   <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
     <value>statusStrip1</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>438, 135</value>
-  </data>
   <data name="&gt;&gt;chk_mtn_numeros.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="fecharToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 22</value>
   </data>
@@ -154,18 +151,18 @@
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>438, 24</value>
   </data>
-  <data name="&gt;&gt;numManter.ZOrder" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_remover.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="numManter.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;numManter.Name" xml:space="preserve">
-    <value>numManter</value>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;fecharToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtRemover.Size" type="System.Drawing.Size, System.Drawing">
     <value>332, 20</value>
@@ -173,8 +170,8 @@
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="&gt;&gt;txtRemover.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
@@ -1042,17 +1039,23 @@
   <data name="&gt;&gt;linguagemToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;arquivoToolStripMenuItem.Name" xml:space="preserve">
+    <value>arquivoToolStripMenuItem</value>
+  </data>
+  <data name="sobreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
   <data name="chk_mtn_numeros.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="&gt;&gt;chk_mtn_numeros.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="abrirPastaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 22</value>
-  </data>
   <data name="toolStripProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
+  </data>
+  <data name="abrirPastaToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Abrir Pasta</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 13</value>
@@ -1063,17 +1066,11 @@
   <data name="&gt;&gt;linguagemToolStripMenuItem.Name" xml:space="preserve">
     <value>linguagemToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;btn_remover.Name" xml:space="preserve">
-    <value>btn_remover</value>
-  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 83</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 113</value>
-  </data>
-  <data name="txtRemover.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -1081,8 +1078,8 @@
   <data name="numManter.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 79</value>
   </data>
-  <data name="btn_remover.Text" xml:space="preserve">
-    <value>Renomear</value>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;numManter.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1092,9 +1089,6 @@
   </data>
   <data name="&gt;&gt;abrirPastaToolStripMenuItem.Name" xml:space="preserve">
     <value>abrirPastaToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="arquivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
@@ -1111,17 +1105,23 @@
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="arquivoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
-  </data>
-  <data name="&gt;&gt;txtRemover.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>97Pedros - Renomeador</value>
   </data>
+  <data name="&gt;&gt;abrirPastaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="toolStripStatusLabel1.Text" xml:space="preserve">
     <value>Pronto</value>
+  </data>
+  <data name="&gt;&gt;numManter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuStrip1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -1144,14 +1144,11 @@
   <data name="sobreToolStripMenuItem1.Text" xml:space="preserve">
     <value>Sobre</value>
   </data>
-  <data name="btn_remover.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 41</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
   </data>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
@@ -1168,11 +1165,14 @@
   <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="linguagemToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="btn_remover.Text" xml:space="preserve">
+    <value>Renomear</value>
   </data>
-  <data name="&gt;&gt;sobreToolStripMenuItem1.Name" xml:space="preserve">
-    <value>sobreToolStripMenuItem1</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_remover.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 58</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1183,17 +1183,20 @@
   <data name="sobreToolStripMenuItem.Text" xml:space="preserve">
     <value>Sobre</value>
   </data>
-  <data name="arquivoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Arquivo</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 28</value>
+  <data name="&gt;&gt;numManter.Name" xml:space="preserve">
+    <value>numManter</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;chk_mtn_numeros.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chk_mtn_numeros.Name" xml:space="preserve">
+    <value>chk_mtn_numeros</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
     <value>englishToolStripMenuItem</value>
@@ -1213,8 +1216,8 @@
   <data name="&gt;&gt;txtRemover.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btn_remover.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 58</value>
+  <data name="txtRemover.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
     <value>menuStrip1</value>
@@ -1240,8 +1243,8 @@
   <data name="&gt;&gt;toolStripProgressBar1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;abrirPastaToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>438, 135</value>
   </data>
   <data name="chk_mtn_numeros.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 17</value>
@@ -1249,17 +1252,17 @@
   <data name="numManter.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;btn_remover.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="abrirPastaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 22</value>
   </data>
-  <data name="sobreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 20</value>
+  <data name="&gt;&gt;btn_remover.Name" xml:space="preserve">
+    <value>btn_remover</value>
   </data>
   <data name="&gt;&gt;sobreToolStripMenuItem.Name" xml:space="preserve">
     <value>sobreToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;arquivoToolStripMenuItem.Name" xml:space="preserve">
-    <value>arquivoToolStripMenuItem</value>
+  <data name="btn_remover.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 41</value>
   </data>
   <data name="numManter.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 20</value>
@@ -1267,17 +1270,17 @@
   <data name="&gt;&gt;portugueseToolStripMenuItem.Name" xml:space="preserve">
     <value>portugueseToolStripMenuItem</value>
   </data>
-  <data name="abrirPastaToolStripMenuItem.Text" xml:space="preserve">
-    <value>&amp;Abrir Pasta</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 28</value>
   </data>
-  <data name="&gt;&gt;fecharToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;sobreToolStripMenuItem1.Name" xml:space="preserve">
+    <value>sobreToolStripMenuItem1</value>
   </data>
   <data name="txtRemover.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 44</value>
   </data>
-  <data name="btn_remover.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1288,14 +1291,11 @@
   <data name="&gt;&gt;toolStripProgressBar1.Name" xml:space="preserve">
     <value>toolStripProgressBar1</value>
   </data>
-  <data name="&gt;&gt;chk_mtn_numeros.Name" xml:space="preserve">
-    <value>chk_mtn_numeros</value>
-  </data>
   <data name="&gt;&gt;txtRemover.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="linguagemToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="chk_mtn_numeros.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 82</value>
@@ -1303,14 +1303,14 @@
   <data name="&gt;&gt;sobreToolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numManter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btn_remover.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;chk_mtn_numeros.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;numManter.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
-    <value>toolStripStatusLabel1</value>
+  <data name="menuStrip1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

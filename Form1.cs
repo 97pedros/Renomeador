@@ -182,6 +182,7 @@ namespace Renomeador
         {
             this.englishToolStripMenuItem.Checked = false;
             this.portugueseToolStripMenuItem.Checked = true;
+            lang_por();
         }
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
@@ -205,6 +206,43 @@ namespace Renomeador
             this.label2.Text = res_man.GetString("caracteres_do_final");
             this.toolStripStatusLabel1.Text = res_man.GetString("pronto");
             this.sobreToolStripMenuItem1.Text = res_man.GetString("sobre");
+            Properties.Settings.Default.lang = "en";
+            Properties.Settings.Default.Save();
+        }
+
+        void lang_por()
+        {
+            eng = false;
+            this.arquivoToolStripMenuItem.Text = "Arquivo";
+            this.abrirPastaToolStripMenuItem.Text = "Abrir pasta";
+            this.fecharToolStripMenuItem.Text = "Fechar";
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            this.linguagemToolStripMenuItem.Text = "Linguagem";
+            this.label1.Text = "Texto para remover";
+            this.btn_remover.Text = "Renomear";
+            this.chk_mtn_numeros.Text = "Manter apenas os ultimos";
+            this.label2.Text = "caracteres do final";
+            this.toolStripStatusLabel1.Text = "Pronto";
+            this.sobreToolStripMenuItem1.Text = "Sobre";
+            Properties.Settings.Default.lang = "pt";
+            Properties.Settings.Default.Save();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            switch(Properties.Settings.Default.lang) 
+            {
+                case "en":
+                    this.lang_eng();
+                    this.englishToolStripMenuItem.Checked = true;
+                    this.portugueseToolStripMenuItem.Checked = false;
+                    break;
+                case "pt":
+                    this.lang_por();
+                    this.englishToolStripMenuItem.Checked = false;
+                    this.portugueseToolStripMenuItem.Checked = true;
+                    break;
+            }            
         }
     }
 }
