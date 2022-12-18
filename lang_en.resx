@@ -117,31 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Abrir_pasta" xml:space="preserve">
+  <data name="abrir_pasta" xml:space="preserve">
     <value>Open folder</value>
   </data>
-  <data name="Arquivo" xml:space="preserve">
+  <data name="arquivo" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="Caracteres_do_final" xml:space="preserve">
+  <data name="caracteres_do_final" xml:space="preserve">
     <value>caracters of the end</value>
   </data>
-  <data name="Fechar" xml:space="preserve">
+  <data name="fechar" xml:space="preserve">
     <value>Close</value>
   </data>
-  <data name="Manter_apenas_os_ultimos" xml:space="preserve">
+  <data name="linguagem" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="manter_apenas_os_ultimos" xml:space="preserve">
     <value>Keep only the last</value>
   </data>
-  <data name="Pronto" xml:space="preserve">
+  <data name="pronto" xml:space="preserve">
     <value>Done</value>
   </data>
-  <data name="Renomear" xml:space="preserve">
+  <data name="renomear" xml:space="preserve">
     <value>Rename</value>
   </data>
-  <data name="Sobre" xml:space="preserve">
+  <data name="sobre" xml:space="preserve">
     <value>About</value>
   </data>
-  <data name="Texto_para_remover" xml:space="preserve">
+  <data name="texto_para_remover" xml:space="preserve">
     <value>Text to remove</value>
   </data>
 </root>

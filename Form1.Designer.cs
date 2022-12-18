@@ -37,6 +37,9 @@ namespace Renomeador
             this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.linguagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.portugueseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.txtRemover = new System.Windows.Forms.TextBox();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
@@ -95,7 +98,8 @@ namespace Renomeador
             resources.ApplyResources(this.sobreToolStripMenuItem, "sobreToolStripMenuItem");
             this.sobreToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sobreToolStripMenuItem1});
+            this.sobreToolStripMenuItem1,
+            this.linguagemToolStripMenuItem});
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
             // 
             // sobreToolStripMenuItem1
@@ -104,6 +108,30 @@ namespace Renomeador
             this.sobreToolStripMenuItem1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.sobreToolStripMenuItem1.Name = "sobreToolStripMenuItem1";
             this.sobreToolStripMenuItem1.Click += new System.EventHandler(this.sobreToolStripMenuItem1_Click);
+            // 
+            // linguagemToolStripMenuItem
+            // 
+            resources.ApplyResources(this.linguagemToolStripMenuItem, "linguagemToolStripMenuItem");
+            this.linguagemToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.portugueseToolStripMenuItem,
+            this.englishToolStripMenuItem});
+            this.linguagemToolStripMenuItem.Name = "linguagemToolStripMenuItem";
+            // 
+            // portugueseToolStripMenuItem
+            // 
+            resources.ApplyResources(this.portugueseToolStripMenuItem, "portugueseToolStripMenuItem");
+            this.portugueseToolStripMenuItem.Checked = true;
+            this.portugueseToolStripMenuItem.CheckOnClick = true;
+            this.portugueseToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.portugueseToolStripMenuItem.Name = "portugueseToolStripMenuItem";
+            this.portugueseToolStripMenuItem.Click += new System.EventHandler(this.portugueseToolStripMenuItem_Click);
+            // 
+            // englishToolStripMenuItem
+            // 
+            resources.ApplyResources(this.englishToolStripMenuItem, "englishToolStripMenuItem");
+            this.englishToolStripMenuItem.CheckOnClick = true;
+            this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // label1
             // 
@@ -201,6 +229,9 @@ namespace Renomeador
         private System.Windows.Forms.CheckBox chk_mtn_numeros;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numManter;
+        private System.Windows.Forms.ToolStripMenuItem linguagemToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem portugueseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem englishToolStripMenuItem;
     }
 }
 

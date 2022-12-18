@@ -22,14 +22,14 @@ namespace Renomeador {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class en_local {
+    internal class lang_en {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal en_local() {
+        internal lang_en() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Renomeador {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Renomeador.en_local", typeof(en_local).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Renomeador.lang_en", typeof(lang_en).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,81 +63,90 @@ namespace Renomeador {
         /// <summary>
         ///   Looks up a localized string similar to Open folder.
         /// </summary>
-        internal static string Abrir_pasta {
+        internal static string abrir_pasta {
             get {
-                return ResourceManager.GetString("Abrir_pasta", resourceCulture);
+                return ResourceManager.GetString("abrir_pasta", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
-        internal static string Arquivo {
+        internal static string arquivo {
             get {
-                return ResourceManager.GetString("Arquivo", resourceCulture);
+                return ResourceManager.GetString("arquivo", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to caracters of the end.
         /// </summary>
-        internal static string Caracteres_do_final {
+        internal static string caracteres_do_final {
             get {
-                return ResourceManager.GetString("Caracteres_do_final", resourceCulture);
+                return ResourceManager.GetString("caracteres_do_final", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
-        internal static string Fechar {
+        internal static string fechar {
             get {
-                return ResourceManager.GetString("Fechar", resourceCulture);
+                return ResourceManager.GetString("fechar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Language.
+        /// </summary>
+        internal static string linguagem {
+            get {
+                return ResourceManager.GetString("linguagem", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Keep only the last.
         /// </summary>
-        internal static string Manter_apenas_os_ultimos {
+        internal static string manter_apenas_os_ultimos {
             get {
-                return ResourceManager.GetString("Manter_apenas_os_ultimos", resourceCulture);
+                return ResourceManager.GetString("manter_apenas_os_ultimos", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Done.
         /// </summary>
-        internal static string Pronto {
+        internal static string pronto {
             get {
-                return ResourceManager.GetString("Pronto", resourceCulture);
+                return ResourceManager.GetString("pronto", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Rename.
         /// </summary>
-        internal static string Renomear {
+        internal static string renomear {
             get {
-                return ResourceManager.GetString("Renomear", resourceCulture);
+                return ResourceManager.GetString("renomear", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
-        internal static string Sobre {
+        internal static string sobre {
             get {
-                return ResourceManager.GetString("Sobre", resourceCulture);
+                return ResourceManager.GetString("sobre", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Text to remove.
         /// </summary>
-        internal static string Texto_para_remover {
+        internal static string texto_para_remover {
             get {
-                return ResourceManager.GetString("Texto_para_remover", resourceCulture);
+                return ResourceManager.GetString("texto_para_remover", resourceCulture);
             }
         }
     }
