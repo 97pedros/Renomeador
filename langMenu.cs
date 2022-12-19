@@ -12,6 +12,7 @@ namespace Renomeador
 {
     public partial class langMenu : Form
     {
+        Form1 janela = new Form1();
         public langMenu()
         {
             InitializeComponent();
@@ -19,9 +20,29 @@ namespace Renomeador
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            Form1 janela = new Form1();
-            janela.Show();
-            this.Close();
+            
+            switch(comboBox1.SelectedIndex)
+            {
+                case 0:
+                    Properties.Settings.Default.lang = "pt";
+                    Properties.Settings.Default.Save();
+                    this.Hide();
+                    janela.Show();
+                    break;
+                case 1:
+                    Properties.Settings.Default.lang = "en";
+                    Properties.Settings.Default.Save();
+                    this.Hide();
+                    janela.Show();
+                    break;
+                case -1:
+                    MessageBox.Show("Select a language");
+                    break;
+            }
+
+            Properties.Settings.Default.firstStart = false;
+            Properties.Settings.Default.Save();
+
         }
     }
 }

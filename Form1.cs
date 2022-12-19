@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Resources;
 using System.Configuration;
 using System.Collections.Specialized;
-
+using System.Runtime.CompilerServices;
 
 namespace Renomeador
 {
@@ -230,7 +230,7 @@ namespace Renomeador
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            switch(Properties.Settings.Default.lang) 
+            switch (Properties.Settings.Default.lang) 
             {
                 case "en":
                     this.lang_eng();
@@ -242,7 +242,12 @@ namespace Renomeador
                     this.englishToolStripMenuItem.Checked = false;
                     this.portugueseToolStripMenuItem.Checked = true;
                     break;
-            }            
+            }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }

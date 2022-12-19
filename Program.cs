@@ -16,7 +16,14 @@ namespace Renomeador
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            if(Properties.Settings.Default.firstStart)
+            {
+                Application.Run(new langMenu());
+            }
+            else 
+            {
+                Application.Run(new Form1());
+            }            
         }
     }
 }
