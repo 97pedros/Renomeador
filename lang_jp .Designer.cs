@@ -22,14 +22,14 @@ namespace Renomeador {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class lang_en {
+    internal class lang_jp_ {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal lang_en() {
+        internal lang_jp_() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Renomeador {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Renomeador.lang_en", typeof(lang_en).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Renomeador.lang_jp ", typeof(lang_jp_).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,7 +61,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Open folder.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a フォルダを開ける.
         /// </summary>
         internal static string abrir_pasta {
             get {
@@ -70,7 +70,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a File.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ファイル.
         /// </summary>
         internal static string arquivo {
             get {
@@ -79,7 +79,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a characters at the end.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a の文字.
         /// </summary>
         internal static string caracteres_do_final {
             get {
@@ -88,7 +88,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Close.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 閉じる.
         /// </summary>
         internal static string fechar {
             get {
@@ -97,7 +97,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Language.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 言語.
         /// </summary>
         internal static string linguagem {
             get {
@@ -106,7 +106,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Keep only the last.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 最後から.
         /// </summary>
         internal static string manter_apenas_os_ultimos {
             get {
@@ -115,7 +115,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Done.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a できました.
         /// </summary>
         internal static string pronto {
             get {
@@ -124,7 +124,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Rename.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 名前を変更.
         /// </summary>
         internal static string renomear {
             get {
@@ -133,7 +133,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a About.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a ついて.
         /// </summary>
         internal static string sobre {
             get {
@@ -142,7 +142,7 @@ namespace Renomeador {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a Text to remove.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a 取り除くテキスト.
         /// </summary>
         internal static string texto_para_remover {
             get {

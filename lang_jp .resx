@@ -118,33 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="abrir_pasta" xml:space="preserve">
-    <value>Open folder</value>
+    <value>フォルダを開ける</value>
   </data>
   <data name="arquivo" xml:space="preserve">
-    <value>File</value>
+    <value>ファイル</value>
   </data>
   <data name="caracteres_do_final" xml:space="preserve">
-    <value>characters at the end</value>
+    <value>の文字</value>
   </data>
   <data name="fechar" xml:space="preserve">
-    <value>Close</value>
+    <value>閉じる</value>
   </data>
   <data name="linguagem" xml:space="preserve">
-    <value>Language</value>
+    <value>言語</value>
   </data>
   <data name="manter_apenas_os_ultimos" xml:space="preserve">
-    <value>Keep only the last</value>
+    <value>最後から</value>
   </data>
   <data name="pronto" xml:space="preserve">
-    <value>Done</value>
+    <value>できました</value>
   </data>
   <data name="renomear" xml:space="preserve">
-    <value>Rename</value>
+    <value>名前を変更</value>
   </data>
   <data name="sobre" xml:space="preserve">
-    <value>About</value>
+    <value>ついて</value>
   </data>
   <data name="texto_para_remover" xml:space="preserve">
-    <value>Text to remove</value>
+    <value>取り除くテキスト</value>
   </data>
 </root>
