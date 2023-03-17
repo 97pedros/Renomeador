@@ -18,6 +18,7 @@ namespace Renomeador
 {
     public partial class Form1 : Form
     {
+        //gerenciador de recursos para o idioma inglês
         ResourceManager res_man = new ResourceManager("Renomeador.lang_en", Assembly.GetExecutingAssembly());
         string pasta;
         bool eng = false;
@@ -104,14 +105,17 @@ namespace Renomeador
             string num;
             try
             {
+                //comandos que leem as informações de arquivos e pastas
                 DirectoryInfo d = new DirectoryInfo(@pasta);
                 FileInfo[] infos = d.GetFiles();
                 int max = 0;
+                //loop para definir o tamanho maximo de passos para a barra de carregamento
                 foreach (FileInfo f in infos)
                 {
                     max++;
                     toolStripProgressBar1.Maximum = max;
                 }
+                //loop para renomear arquivos com apenas o numero determinado de caracteres no final da string com o nome do arquivo
                 foreach (FileInfo f in infos)
                 {
                         int manter = f.Name.Substring(f.Name.IndexOf(".")).Length + Decimal.ToInt32(numManter.Value);
@@ -124,6 +128,7 @@ namespace Renomeador
             }
             catch(ArgumentNullException)
             {
+                //exibe mensagem de erro no idioma selecionado
                 if(!eng)
                 {
                     MessageBox.Show("Selecione uma pasta!", "Erro");
@@ -142,11 +147,11 @@ namespace Renomeador
             abrir();
             if(!eng)
             {
-                this.Text = this.Text + " Trabalhando em: " + pasta;
+                this.Text = Text + " Trabalhando em: " + pasta;
             }
             else
             {
-                this.Text = this.Text + " Working on: " + pasta;
+                this.Text = Text + " Working on: " + pasta;
             }
         }
 
@@ -194,42 +199,45 @@ namespace Renomeador
 
         void lang_eng()
         {
+            //Traduz o programa para inglês
             eng = true;
-            this.arquivoToolStripMenuItem.Text = res_man.GetString("arquivo");
-            this.abrirPastaToolStripMenuItem.Text = res_man.GetString("abrir_pasta");
-            this.fecharToolStripMenuItem.Text = res_man.GetString("fechar");
-            this.sobreToolStripMenuItem.Text = res_man.GetString("sobre");
-            this.linguagemToolStripMenuItem.Text = res_man.GetString("linguagem");
-            this.label1.Text = res_man.GetString("texto_para_remover");
-            this.btn_remover.Text = res_man.GetString("renomear");
-            this.chk_mtn_numeros.Text = res_man.GetString("manter_apenas_os_ultimos");
-            this.label2.Text = res_man.GetString("caracteres_do_final");
-            this.toolStripStatusLabel1.Text = res_man.GetString("pronto");
-            this.sobreToolStripMenuItem1.Text = res_man.GetString("sobre");
+            arquivoToolStripMenuItem.Text = res_man.GetString("arquivo");
+            abrirPastaToolStripMenuItem.Text = res_man.GetString("abrir_pasta");
+            fecharToolStripMenuItem.Text = res_man.GetString("fechar");
+            sobreToolStripMenuItem.Text = res_man.GetString("sobre");
+            linguagemToolStripMenuItem.Text = res_man.GetString("linguagem");
+            label1.Text = res_man.GetString("texto_para_remover");
+            btn_remover.Text = res_man.GetString("renomear");
+            chk_mtn_numeros.Text = res_man.GetString("manter_apenas_os_ultimos");
+            label2.Text = res_man.GetString("caracteres_do_final");
+            toolStripStatusLabel1.Text = res_man.GetString("pronto");
+            sobreToolStripMenuItem1.Text = res_man.GetString("sobre");
             Properties.Settings.Default.lang = "en";
             Properties.Settings.Default.Save();
         }
 
         void lang_por()
         {
+            //traduz o programa para portugues
             eng = false;
-            this.arquivoToolStripMenuItem.Text = "Arquivo";
-            this.abrirPastaToolStripMenuItem.Text = "Abrir pasta";
-            this.fecharToolStripMenuItem.Text = "Fechar";
-            this.sobreToolStripMenuItem.Text = "Sobre";
-            this.linguagemToolStripMenuItem.Text = "Linguagem";
-            this.label1.Text = "Texto para remover";
-            this.btn_remover.Text = "Renomear";
-            this.chk_mtn_numeros.Text = "Manter apenas os ultimos";
-            this.label2.Text = "caracteres do final";
-            this.toolStripStatusLabel1.Text = "Pronto";
-            this.sobreToolStripMenuItem1.Text = "Sobre";
+            arquivoToolStripMenuItem.Text = "Arquivo";
+            abrirPastaToolStripMenuItem.Text = "Abrir pasta";
+            fecharToolStripMenuItem.Text = "Fechar";
+            sobreToolStripMenuItem.Text = "Sobre";
+            linguagemToolStripMenuItem.Text = "Linguagem";
+            label1.Text = "Texto para remover";
+            btn_remover.Text = "Renomear";
+            chk_mtn_numeros.Text = "Manter apenas os ultimos";
+            label2.Text = "caracteres do final";
+            toolStripStatusLabel1.Text = "Pronto";
+            sobreToolStripMenuItem1.Text = "Sobre";
             Properties.Settings.Default.lang = "pt";
             Properties.Settings.Default.Save();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Abre a janela de seleção de idioma na primeira execução do programa
             switch (Properties.Settings.Default.lang) 
             {
                 case "en":
