@@ -255,6 +255,7 @@ namespace Renomeador
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
+            //força a finalização e o fechamento do aplicativo ao fechar todas as janelas
             System.Windows.Forms.Application.Exit();
         }
     }
