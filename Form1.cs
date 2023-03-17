@@ -241,14 +241,14 @@ namespace Renomeador
             switch (Properties.Settings.Default.lang) 
             {
                 case "en":
-                    this.lang_eng();
-                    this.englishToolStripMenuItem.Checked = true;
-                    this.portugueseToolStripMenuItem.Checked = false;
+                    lang_eng();
+                    englishToolStripMenuItem.Checked = true;
+                    portugueseToolStripMenuItem.Checked = false;
                     break;
                 case "pt":
-                    this.lang_por();
-                    this.englishToolStripMenuItem.Checked = false;
-                    this.portugueseToolStripMenuItem.Checked = true;
+                    lang_por();
+                    englishToolStripMenuItem.Checked = false;
+                    portugueseToolStripMenuItem.Checked = true;
                     break;
             }
         }
