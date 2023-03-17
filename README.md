@@ -12,4 +12,4 @@ Embora o programa funcione em Windows 11, não há suporte oficial.
 
 
 ### Aviso
-Programa funciona de forma destrutiva, ou seja, não há CTRL+Z, o programa apenas renomeia multiplos arquivos simultaneamente, em outras palavras o máximo que ele pode fazer aos arquivos é alterar o nome, e, em casos muito específicos, sua extensão.
+Programa funciona de forma destrutiva, ou seja, não há CTRL+Z, o programa apenas renomeia multiplos arquivos simultaneamente, em outras palavras, o máximo que ele pode fazer aos arquivos é alterar o nome, e, em casos muito específicos, sua extensão.
